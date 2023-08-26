@@ -1,0 +1,43 @@
+body {
+  color: hsl(52, 100%, 62%);
+  background: hsl(268, 75%, 9%);
+}
+
+.box {
+  background: hsl(268, 71%, 12%);
+}
+
+/* When the radio button is checked */
+.slider-container input:checked ~ .checkmark {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.screen {
+  background: hsl(268, 71%, 12%);
+}
+
+.btn {
+  background: hsl(268, 71%, 12%);
+}
+
+#del {
+  background: hsl(281, 89%, 26%);
+  box-shadow: 0 5px hsl(285, 91%, 52%);
+}
+
+#reset {
+  background: hsl(281, 89%, 26%);
+  box-shadow: 0 5px hsl(285, 91%, 52%);
+}
+
+#equal {
+  background: hsl(176, 100%, 44%);
+  box-shadow: 0 5px hsl(177, 92%, 70%);
+  color: hsl(198, 20%, 13%);
+}
+
+li {
+  box-shadow: 0 5px hsl(290, 70%, 36%);
+  background: hsl(268, 47%, 21%);
+  color: hsl(52, 100%, 62%);
+}
