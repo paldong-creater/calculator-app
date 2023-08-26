@@ -201,3 +201,29 @@ li:hover {
     height: 65px;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+    font-size: 26px;
+  }
+
+  .checkmark {
+    top: -22px;
+  }
+
+  .container {
+    width: 350px;
+    margin-top: 10px;
+    grid-template-rows: 12% 15% 65%;
+  }
+
+  .btn {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  li {
+    padding-top: 15px;
+  }
+}
